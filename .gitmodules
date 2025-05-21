@@ -1,0 +1,3 @@
+[submodule "type-transformations-workshop"]
+	path = type-transformations-workshop
+	url = https://github.com/total-typescript/type-transformations-workshop.git
