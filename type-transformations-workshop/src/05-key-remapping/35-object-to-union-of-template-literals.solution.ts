@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Equal, Expect } from "../helpers/type-utils";
 
 interface FruitMap {
   apple: "red";
@@ -9,6 +9,9 @@ interface FruitMap {
 type TransformedFruit = {
   [F in keyof FruitMap]: `${F}:${FruitMap[F]}`;
 }[keyof FruitMap];
+
+
+
 
 type tests = [
   Expect<
